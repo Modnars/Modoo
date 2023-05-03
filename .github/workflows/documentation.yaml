@@ -10,7 +10,7 @@ jobs:
       - name: custom build
         run: |
           mkdir _build/
-          cp .raw/* _build/
+          cp -r .raw/* _build/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
