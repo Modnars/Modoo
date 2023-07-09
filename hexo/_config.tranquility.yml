@@ -1,0 +1,155 @@
+slogan: 「聆听新思想 解放旧道德」
+email: modnarshen@gmail.com
+logo: "/images/logo.svg"
+
+mathjax: false # 加载 LateX 数学公式库
+
+favicon: # 配置网页图标
+  small: /images/favicon-16x16.png
+  medium: /images/favicon-32x32.png
+  apple_touch_icon: /images/apple-touch-icon.png
+  safari_pinned_tab: /images/logo.svg
+
+subpage: # 开启“子页”功能，详见 README
+  enable: true
+  pages:
+    # - name: blog # 文章的分类（category）名，如 developer
+    #   path: # 若不设置则默认使用 name
+    #   title: 其他 # 菜单名，如 开发者
+    #   icon: /images/icon/icon-pi.svg # 图标的路径
+    #   description: # 描述
+    - name: articles
+      path: 
+      title: 写作
+      icon: /images/icon/icon-blog.svg 
+      description:
+    - name: discussion
+      path:
+      title: 讨论
+      icon: /images/icon/icon-email.svg
+      description:
+    - name: gallery
+      path:
+      title: 品味
+      icon: /images/icon/icon-book.svg
+      description:
+
+index: # 配置首页个性化内容
+  motto: "应无所住 而生其心"
+  poem:
+    - 君不见高堂明镜悲白发
+    - 朝如青丝暮成雪
+  photo: /images/modoo.jpeg
+  about:
+    title: 欢迎
+    text:
+      - 你好，我是「莫多」，
+      - 来自茫茫星辰宇宙中另一时空的朋友。
+      - 欢迎访问 𝙈𝙤𝙙𝙤𝙤𝙕𝙤𝙣𝙚，
+      - 愿你在感慨现实万千之后，
+      - 依旧保留一方理想主义空间。
+      - 在这里，我们一起聊聊彼此的故事。
+      - 带着可能由此充盈的勇气和智慧，再出发。
+
+foot:
+  title:
+    - "海内存知己"
+    - "天涯若比邻"
+
+links: # 朋友
+  - name: "LLVM"
+    url: https://llvm.org/
+
+social: # 账号
+  - name: "github"
+    icon: "/images/logo-github.svg"
+    url: https://github.com/Modnars
+  # - name: "微信公众号"
+  #   icon: "/images/logo-wx.svg"
+  #   url: https://mp.weixin.qq.com/s?__biz=MzI3NzQ4NDkzNg==&mid=2247484469&idx=1&sn=8a442bb67397f52cce5c38c3f9b41e36&chksm=eb64c0d2dc1349c40d2e1bb55615ae28b3f2951be22f00717b9ade98c851082e42dc666ab45d#rd
+  # - name: "知乎"
+  #   icon: "/images/logo-zh.svg"
+  #   url: https://www.zhihu.com/
+
+reward: # 赞赏
+  enable: false
+  face: # 头像图片
+  paycode: # 支付码图片
+  text: “请作者喝杯咖啡”
+  btnText: 喜欢作者
+
+# see https://github.com/gitalk/gitalk
+gitalk: # gitalk 评论
+  enable: false
+  owner: # MUST HAVE, Your Github Username
+  admin:
+  repo: # MUST HAVE, The name of the repo you use to store Gitment comments
+  clientID: # MUST HAVE, Github client id for the Gitment
+  clientSecret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+
+  distractionFreeMode: false # Facebook-like distraction free mode
+  # When the official proxy is not available, you can change it to your own proxy address
+  proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy adress
+  # Gitalk's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
+  language: zh-CN
+
+# see https://github.com/tea3/hexo-related-popular-posts
+related_post:
+  enable: false
+  config:
+    maxCount: 5 # Maximum count of a list. default 5
+    ulClass: # Class name of element. deafult 'popular-posts'
+    PPMixingRate: 0.4 # Mixing ratio of popular posts and related posts. default 0.0(=Related posts only)
+    isDate: # visible the date. false
+    isImage: # visible the image. false
+    isExcerpt: # visible the excerpt. false
+    PPCategoryFilter: # Option to fix category on Popular Posts. undefined
+    PPTagFilter: # Option to fix tag on Popular Posts. undefined
+
+# Baidu Webmaster tools verification.
+# See: https://ziyuan.baidu.com/site
+baidu_site_verification:
+
+# Baidu Analytics
+# See: https://tongji.baidu.com
+baidu_analytics: # <app_id>
+
+# 自定义字体，用于美化部分汉字的显示效果.
+# 可以通过替换 _font/ 目录下的字体文件替换自己喜欢的字体
+zh_font:
+  enable: false
+  fontName: 'SourceHanSerif'
+  type: ttf
+  style:
+    - regular
+    - bold
+
+# 配置时间线 参考 README.md
+timeline:
+  enable: true
+  order: false # 是否按时间正序展示，false 为倒序
+  items:
+    - name: event
+      color: "#568DC4"
+      icon: /images/icon/icon-event.svg
+      checked: true
+    - name: slogan
+      color: "#60A465"
+      icon: /images/icon/icon-sunrise.svg
+      checked: true
+    - name: reading
+      color: "#F9AB02"
+      icon: /images/icon/icon-book.svg
+      checked: false
+    - name: discussion
+      color: "#EE936C"
+      icon: /images/icon/icon-article.svg
+      checked: false
+
+# 标签云
+tagcloud:
+  fancy: true
+  min_font: 14
+  max_font: 30
