@@ -135,6 +135,10 @@
   top: 0;
   width: 100%;
 }
+.post-inner p,
+.post-inner--toc p {
+  text-indent: 2em;
+}
 .post-content {
   padding: 10px 0;
   margin: 0 auto;
