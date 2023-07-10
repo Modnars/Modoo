@@ -119,7 +119,7 @@ baidu_analytics: # <app_id>
 # 自定义字体，用于美化部分汉字的显示效果.
 # 可以通过替换 _font/ 目录下的字体文件替换自己喜欢的字体
 zh_font:
-  enable: false
+  enable: true
   fontName: 'SourceHanSerif'
   type: ttf
   style:
