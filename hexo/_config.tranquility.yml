@@ -57,8 +57,8 @@ foot:
     - "天涯若比邻"
 
 links: # 朋友
-  - name: "LLVM"
-    url: https://llvm.org/
+  - name: "Modnar"
+    url: https://www.modnar.zone/
 
 social: # 账号
   - name: "github"

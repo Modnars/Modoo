@@ -9,6 +9,6 @@ categories: discussion
 timeline: discussion
 ---
 
-> 华语辩坛老友赛 2023 第七场
+## 2023（第六届）华语辩坛老友赛 第七场
 
 <iframe src="//player.bilibili.com/player.html?aid=912559187&bvid=BV1qM4y1E7HK&cid=1173080206&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>

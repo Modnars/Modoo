@@ -10,6 +10,6 @@ categories: discussion
 timeline: discussion
 ---
 
-> 华语辩坛老友赛 2023 第一场
+## 2023（第六届）华语辩坛老友赛 第一场
 
 <iframe src="//player.bilibili.com/player.html?aid=530052251&bvid=BV1yu411a7y5&cid=1172120466&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
