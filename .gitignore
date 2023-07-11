@@ -1,1 +1,5 @@
 _build
+
+# For branch `hexo`.
+hexo/
+
