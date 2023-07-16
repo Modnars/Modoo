@@ -13,26 +13,31 @@ favicon: # 配置网页图标
 subpage: # 开启“子页”功能，详见 README
   enable: true
   pages:
-    # - name: blog # 文章的分类（category）名，如 developer
-    #   path: # 若不设置则默认使用 name
-    #   title: 其他 # 菜单名，如 开发者
-    #   icon: /images/icon/icon-pi.svg # 图标的路径
-    #   description: # 描述
     - name: articles
+      path:
+      title: 记录
+      icon: /images/icon/icon-articles.svg 
+      description: 「我」的记录
+    - name: dialog
       path: 
-      title: 写作
-      icon: /images/icon/icon-blog.svg 
-      description:
+      title: 对话
+      icon: /images/icon/icon-dialog.svg 
+      description: 「你」的倾诉
     - name: discussion
       path:
       title: 讨论
-      icon: /images/icon/icon-email.svg
-      description:
+      icon: /images/icon/icon-discussion.svg
+      description: 「大家」的诉诸
     - name: gallery
-      path:
+      path: # 若不设置则默认使用 name
       title: 品味
-      icon: /images/icon/icon-book.svg
-      description:
+      icon: /images/icon/icon-gallery.svg
+      description: 「世间」的关注
+    # - name: blog
+    #   path:
+    #   title: All
+    #   icon: /images/icon/icon-blog.svg
+    #   description: # 描述
 
 index: # 配置首页个性化内容
   motto: "应无所住 而生其心"
@@ -61,7 +66,7 @@ links: # 朋友
     url: https://www.modnar.zone/
 
 social: # 账号
-  - name: "github"
+  - name: "GitHub"
     icon: "/images/logo-github.svg"
     url: https://github.com/Modnars
   # - name: "微信公众号"
@@ -132,21 +137,25 @@ timeline:
   order: false # 是否按时间正序展示，false 为倒序
   items:
     - name: event
-      color: "#568DC4"
-      icon: /images/icon/icon-event.svg
+      color: "#01A2FF"
+      icon: /images/icon/icon-brush.svg
       checked: true
     - name: slogan
-      color: "#60A465"
-      icon: /images/icon/icon-sunrise.svg
+      color: "#18E6CF"
+      icon: /images/icon/icon-safari.svg
       checked: true
-    - name: reading
-      color: "#F9AB02"
-      icon: /images/icon/icon-book.svg
-      checked: false
+    - name: dialog
+      color: "#60D935"
+      icon: /images/icon/icon-comment.svg
+      checked: true
     - name: discussion
-      color: "#EE936C"
-      icon: /images/icon/icon-article.svg
-      checked: false
+      color: "#FFD932"
+      icon: /images/icon/icon-idea.svg
+      checked: true
+    - name: gallery
+      color: "#FF634E"
+      icon: /images/icon/icon-book.svg
+      checked: true
 
 # 标签云
 tagcloud:
