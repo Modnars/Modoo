@@ -15,7 +15,7 @@
 .wall-category--plain .wall-category-title .title-icon {
   height: 1.666666666666667em;
   width: 1.666666666666667em;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .wall-category--plain .wall-category-description {
   text-align: left;
@@ -41,8 +41,8 @@
 .wall-category-title .title-icon {
   height: 50px;
   width: 50px;
-  background: url("/images/icon-code.svg") center center/contain no-repeat;
-  margin-right: 10px;
+  background: url("/images/icon/icon-blog.svg") center center/contain no-repeat;
+  margin-right: 20px;
 }
 .wall-category-tags {
   width: 100%;
