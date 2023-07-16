@@ -41,7 +41,7 @@
 .wall-category-title .title-icon {
   height: 50px;
   width: 50px;
-  background: url("/images/icon/icon-blog.svg") center center/contain no-repeat;
+  background: url("/images/icon-code.svg") center center/contain no-repeat;
   margin-right: 20px;
 }
 .wall-category-tags {
