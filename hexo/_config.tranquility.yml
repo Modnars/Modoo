@@ -40,7 +40,7 @@ subpage: # 开启“子页”功能，详见 README
     #   description: # 描述
 
 index: # 配置首页个性化内容
-  motto: "无有恐怖 远离颠倒梦想"
+  motto: "星辰尽染 无尽浪漫"
   poem:
     - 君不见高堂明镜悲白发
     - 朝如青丝暮成雪
