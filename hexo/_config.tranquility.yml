@@ -1,4 +1,4 @@
-slogan: 「聆听新思想 解放旧道德」
+slogan: 「绝知此事要躬行」
 email: modnarshen@gmail.com
 logo: "/images/logo.svg"
 
@@ -40,10 +40,10 @@ subpage: # 开启“子页”功能，详见 README
     #   description: # 描述
 
 index: # 配置首页个性化内容
-  motto: "星辰尽染 无尽浪漫"
+  motto: "独立之精神 自由之思想"
   poem:
-    - 君不见高堂明镜悲白发
-    - 朝如青丝暮成雪
+    - 星辰尽染
+    - 无尽浪漫
   photo: /images/modoo.jpeg
   about:
     title: 欢迎
